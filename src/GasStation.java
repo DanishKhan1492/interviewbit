@@ -8,6 +8,7 @@ public class GasStation {
         int totalGasFound = 0;
         int gasRequiredBefore = 0;
         int gasFoundBefore = 0;
+
         for (int i = 0; i < tank.size(); i++) {
             totalGasUsed += gas.get(i);
             totalGasFound += tank.get(i);
